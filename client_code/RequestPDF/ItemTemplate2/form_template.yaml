@@ -1,0 +1,35 @@
+components:
+- components:
+  - data_bindings:
+    - {code: 'self.item[''medicineName'']', property: tag, writeback: false}
+    layout_properties: {}
+    name: txtMedicine
+    properties: {align: center, background: '#ffffff', font_size: 14, foreground: '#333333', height: 39.199981689453125, role: outlined}
+    type: TextArea
+  layout_properties: {grid_position: 'MXJLKG,QKSZUN'}
+  name: linear_panel_1
+  properties: {}
+  type: LinearPanel
+- data_bindings:
+  - {code: 'self.item[''medicineQuantity'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'MXJLKG,YTZSYJ'}
+  name: tbQuantity
+  properties: {align: center, font_size: 14, foreground: '#333333', role: outlined}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''medicineReceivedDate'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'MXJLKG,TUHXIN'}
+  name: tbReceivedDate
+  properties: {align: center, font_size: 14, foreground: '#333333', role: outlined}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''medicineRemarks'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'MXJLKG,JNYPVR'}
+  name: txtRemarks
+  properties: {align: center, background: '#ffffff', font_size: 14, foreground: '#333333', height: 39, role: outlined}
+  type: TextArea
+container:
+  properties: {col_widths: '{"QKSZUN":20,"YTZSYJ":10,"TUHXIN":10,"JNYPVR":20}'}
+  type: ColumnPanel
+is_package: true
+item_type: {table_id: 765611}

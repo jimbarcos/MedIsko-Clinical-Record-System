@@ -1,0 +1,474 @@
+components:
+- layout_properties: {grid_position: 'OZDSVY,TNVHAK'}
+  name: image_1
+  properties: {height: 118.54544067382812, horizontal_align: right, source: _/theme/pupLogo.png}
+  type: Image
+- layout_properties: {grid_position: 'OZDSVY,RZKQMW'}
+  name: label_2
+  properties:
+    align: center
+    bold: true
+    font_size: 14
+    foreground: '#333333'
+    text: "POLYTECHNIC UNIVESITY OF THE PHILIPPINES\nMedical Services Department\nSta. Mesa, Manila\n\nINVENTORY OF MEDICINES AND SUPPLIES\nAS OF "
+  type: Label
+- layout_properties: {grid_position: 'OZDSVY,XDCEXE'}
+  name: label_2_copy
+  properties: {align: center, bold: true, font_size: 14, foreground: '#333333', text: ''}
+  type: Label
+- layout_properties: {grid_position: 'QGNWJJ,YKPOWF'}
+  name: spacer_1
+  properties: {height: 32}
+  type: Spacer
+- layout_properties: {grid_position: 'BOAKLI,DDZYCH'}
+  name: label_2_copy_3
+  properties:
+    align: left
+    bold: true
+    font_size: 13
+    foreground: '#333333'
+    spacing_above: none
+    spacing_below: none
+    text: "NAME: \n"
+  type: Label
+- layout_properties: {grid_position: 'BOAKLI,ULKHLD'}
+  name: label_2_copy_3_copy_2
+  properties:
+    align: left
+    bold: true
+    font_size: 13
+    foreground: '#333333'
+    spacing_above: none
+    spacing_below: none
+    text: "DATE OF SUBMISSION: \n"
+  type: Label
+- layout_properties: {grid_position: 'ZYAYZA,IPFOKO'}
+  name: label_2_copy_3_copy
+  properties:
+    align: left
+    bold: true
+    font_size: 13
+    foreground: '#333333'
+    spacing_above: none
+    spacing_below: none
+    text: "POSITION: \n"
+  type: Label
+- layout_properties: {grid_position: 'ZYAYZA,BUOUOT'}
+  name: label_2_copy_3_copy_copy
+  properties:
+    align: left
+    bold: true
+    font_size: 13
+    foreground: '#333333'
+    spacing_above: none
+    spacing_below: none
+    text: "UNIT/DEPARTMENT: \n"
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'PHXASG,KBRJNF'}
+    name: label_2_copy_3_copy_copy_2
+    properties:
+      align: center
+      bold: false
+      font_size: 12
+      foreground: '#333333'
+      spacing_above: none
+      spacing_below: none
+      text: |
+        Date
+    type: Label
+  - layout_properties: {grid_position: 'PHXASG,FWZMUP'}
+    name: label_2_copy_3_copy_copy_2_copy
+    properties:
+      align: center
+      bold: true
+      font_size: 12
+      foreground: '#333333'
+      spacing_above: none
+      spacing_below: none
+      text: |
+        Medicine/Material
+    type: Label
+  - layout_properties: {grid_position: 'PHXASG,YVTDVR'}
+    name: label_2_copy_3_copy_copy_2_copy_copy
+    properties:
+      align: center
+      bold: false
+      font_size: 12
+      foreground: '#333333'
+      spacing_above: none
+      spacing_below: none
+      text: |
+        Quantity
+    type: Label
+  - layout_properties: {grid_position: 'PHXASG,QWPTGS'}
+    name: label_2_copy_3_copy_copy_2_copy_copy_copy
+    properties:
+      align: center
+      bold: false
+      font_size: 12
+      foreground: '#333333'
+      spacing_above: none
+      spacing_below: none
+      text: |
+        Consumed
+    type: Label
+  - layout_properties: {grid_position: 'PHXASG,WAVOMH'}
+    name: label_2_copy_3_copy_copy_2_copy_copy_copy_copy
+    properties:
+      align: center
+      bold: false
+      font_size: 12
+      foreground: '#333333'
+      spacing_above: none
+      spacing_below: none
+      text: |
+        Balance
+    type: Label
+  - layout_properties: {grid_position: 'PHXASG,GZGJGN'}
+    name: label_2_copy_3_copy_copy_2_copy_copy_copy_copy_copy
+    properties:
+      align: center
+      bold: false
+      font_size: 12
+      foreground: '#333333'
+      spacing_above: none
+      spacing_below: none
+      text: |
+        Expiry Date
+    type: Label
+  layout_properties: {grid_position: 'NIHHKV,WVFOMM'}
+  name: outlined_card_1
+  properties: {background: '#ffffff', col_spacing: none, col_widths: '{"KBRJNF":10,"FWZMUP":25,"YVTDVR":5,"QWPTGS":5,"WAVOMH":5,"GZGJGN":10}', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'QEUQSK,MFUPDV'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Analgesic:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_1
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'ZGIVNK,EQQHPX'}
+  name: outlined_card_1_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'EWTRWX,NAPENP'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Muscle Relaxant:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_2
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'RSUYNJ,QIJEBK'}
+  name: outlined_card_1_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'BADLEJ,CABREF'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Antipyretics:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_3
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'NOUZPP,AWMNBC'}
+  name: outlined_card_1_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'KWRRRD,LEFZSM'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Mucolytic:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_4
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'IFRRMX,IBCZPD'}
+  name: outlined_card_1_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'ELYMFT,IFLXJS'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Decongestant:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_5
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'OGWXGW,RRATPW'}
+  name: outlined_card_1_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'RISMCF,LCAVCV'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Antitussive: '}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_6
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'CZOOMG,OXPHXS'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'MPVAVA,KNGFWL'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Anti-Hypertensive:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_7
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'JOBPJD,JXFGTO'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'EQFJMV,XLBZTB'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Coronary Dilator:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_8
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'RHESUO,CSBMAO'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'AOUUUH,SVXHBN'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Antivertigo:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_9
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'UMQGKX,UDTJKO'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'HUQKGC,NJVJSD'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Antibiotic:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_10
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'UQIUTU,WEOQWB'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'OSADTG,XZAQQH'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Antipasmodic:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_11
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'TJBTUD,NWWIMP'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'GCFOLO,IEHGKT'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Gastrokinetic/Antiemetic:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_12
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'UYUPCP,XCJGXP'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'PYGQCE,PETPZX'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Antimotility:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_13
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'UBHHPZ,QGCFEE'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'YKMZSO,XSBVSA'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Electrolyte Oral:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_14
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'THAWPS,DSSIUW'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'WZOVIU,QLWDGP'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Antacid/Antiflatulent:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_15
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'VSQGGK,KFCJFO'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'NQKDPC,SZOWQU'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Proton Pump Inhibitor:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_16
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'XSLKZV,UQNSOJ'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'IFZWKG,AJLCEW'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Antihistamine:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_17
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'PFYUMO,BVMHXI'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'ONNIHJ,AOXLMY'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_2_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Anti-Asthma:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_18
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'UADSKE,AYFIKN'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_2
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'QKYWXG,OUYEMK'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_2_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Topical Ointment:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_19
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'QLCIGU,HVBILX'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_3
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'NWEQIU,LYVRWD'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_2
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Eye/Ear Drops:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_20
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'XKDROO,VMMNDQ'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_4
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'TTJHQB,EWIIHO'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: 'Supplies:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KZQLHD,OHFGHG'}
+    name: repeating_panel_21
+    properties: {item_template: MedSuppliesPDF.ItemTemplate9, spacing_above: none, spacing_below: none}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'WLFCDY,IHDSHP'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_4_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'SREAXQ,QZRWJK'}
+  name: spacer_1_copy
+  properties: {height: 26.5555419921875}
+  type: Spacer
+- layout_properties: {grid_position: 'MOMDJG,SGSKDF'}
+  name: label_1
+  properties: {align: right, bold: true, font_size: 14, foreground: '#333333', text: 'Prepared by:'}
+  type: Label
+- layout_properties: {grid_position: 'MOMDJG,KPTLTC'}
+  name: label_3_copy
+  properties:
+    foreground: '#333333'
+    spacing_below: small
+    text: |
+      _________________________
+               Public Health Nurse
+  type: Label
+- layout_properties: {grid_position: 'XHPABW,OEUXJL'}
+  name: label_1_copy
+  properties: {align: right, bold: true, font_size: 14, foreground: '#333333', text: 'Noted by:'}
+  type: Label
+- layout_properties: {grid_position: 'XHPABW,IXNBQS'}
+  name: label_3_copy_copy
+  properties:
+    foreground: '#333333'
+    spacing_below: small
+    text: |
+      _________________________
+                  Medical Officer
+  type: Label
+- layout_properties: {grid_position: 'YQQMZY,HNCFXP'}
+  name: spacer_1_copy_copy
+  properties: {height: 44.20001220703125}
+  type: Spacer
+- layout_properties: {grid_position: 'IWSTOT,MGYREW FAGJCA,XTOBRL'}
+  name: label_1_copy_copy_2_copy_copy
+  properties:
+    align: left
+    font_size: 11
+    foreground: '#333333'
+    spacing_below: none
+    text: |-
+      Ground Floor, East Wing, PUP A. Mabini Campus, Anonas Street, Sta. Mesa, Manila 1016
+      Trunk Line: 335-1787 or 335-1777 local 385 (Medical Director’s Office), 312 (Clinic)
+      Website: www.pup.edu.ph | Email: medical@pup.edu.ph
+  type: Label
+- layout_properties: {grid_position: 'IWSTOT,MGYREW QLOXET,ANJLXS'}
+  name: label_1_copy_copy_2_copy_copy_copy
+  properties: {bold: true, font_size: 15, foreground: '#333333', spacing_above: none, text: THE COUNTRY’S 1st POLYTECHNIC UNIVERSITY}
+  type: Label
+- layout_properties: {grid_position: 'IWSTOT,NWPYJY'}
+  name: image_1_copy
+  properties: {height: 114.09088134765625, horizontal_align: center, source: _/theme/isoLogo.jpg}
+  type: Image
+container:
+  properties: {col_widths: '{"TNVHAK":20,"RZKQMW":40,"XDCEXE":20,"SGSKDF":10,"KPTLTC":50,"OEUXJL":10,"IXNBQS":50,"MGYREW":40,"NWPYJY":20}'}
+  type: ColumnPanel
+is_package: true

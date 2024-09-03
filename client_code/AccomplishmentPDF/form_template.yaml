@@ -1,0 +1,579 @@
+components:
+- layout_properties: {grid_position: 'UFFYNR,LGWCLF'}
+  name: image_1
+  properties: {height: 118.54544067382812, horizontal_align: right, source: _/theme/pupLogo.png}
+  type: Image
+- layout_properties: {grid_position: 'UFFYNR,ZDBZJZ BCELKC,LTCTCQ'}
+  name: label_2
+  properties:
+    align: center
+    bold: true
+    font_size: 14
+    foreground: '#333333'
+    text: |-
+      POLYTECHNIC UNIVESITY OF THE PHILIPPINES
+      Medical Services Department
+      Sta. Mesa, Manila
+
+      ACCOMPLISHMENT REPORT
+      AS OF
+  type: Label
+- layout_properties: {grid_position: 'UFFYNR,ZDBZJZ QMNLMX,VKMOGC'}
+  name: spacer_1
+  properties: {height: 32}
+  type: Spacer
+- layout_properties: {grid_position: 'UFFYNR,ZTJEBJ'}
+  name: label_2_copy
+  properties: {align: center, bold: true, font_size: 14, foreground: '#333333', text: ''}
+  type: Label
+- layout_properties: {grid_position: 'FGAPKP,PEQNTP'}
+  name: lblName
+  properties:
+    align: left
+    bold: true
+    font_size: 13
+    foreground: '#333333'
+    spacing_above: none
+    spacing_below: none
+    text: "NAME: \n"
+  type: Label
+- layout_properties: {grid_position: 'FGAPKP,NEIERS'}
+  name: lblDateSubmission
+  properties:
+    align: left
+    bold: true
+    font_size: 13
+    foreground: '#333333'
+    spacing_above: none
+    spacing_below: none
+    text: "DATE OF SUBMISSION: \n"
+  type: Label
+- layout_properties: {grid_position: 'KBZXAP,QFBSGS'}
+  name: lblPosition
+  properties:
+    align: left
+    bold: true
+    font_size: 13
+    foreground: '#333333'
+    spacing_above: none
+    spacing_below: none
+    text: "POSITION: \n"
+  type: Label
+- layout_properties: {grid_position: 'KBZXAP,IKIUXB'}
+  name: lblUnit
+  properties:
+    align: left
+    bold: true
+    font_size: 13
+    foreground: '#333333'
+    spacing_above: none
+    spacing_below: none
+    text: "UNIT/DEPARTMENT: \n"
+  type: Label
+- layout_properties: {grid_position: 'WNPFYX,BMIIGI'}
+  name: spacer_1_copy
+  properties: {height: 14.600006103515625}
+  type: Spacer
+- components:
+  - layout_properties: {grid_position: 'PHXASG,KBRJNF'}
+    name: label_2_copy_3_copy_copy_2
+    properties:
+      align: center
+      bold: true
+      font_size: 12
+      foreground: '#333333'
+      spacing_above: none
+      spacing_below: none
+      text: |
+        MEDICAL SERVICES RENDERED
+    type: Label
+  - layout_properties: {grid_position: 'PHXASG,FWZMUP'}
+    name: label_2_copy_3_copy_copy_2_copy
+    properties:
+      align: center
+      bold: false
+      font_size: 12
+      foreground: '#333333'
+      spacing_above: none
+      spacing_below: none
+      text: |
+        Students
+    type: Label
+  - layout_properties: {grid_position: 'PHXASG,YVTDVR'}
+    name: label_2_copy_3_copy_copy_2_copy_copy
+    properties:
+      align: center
+      bold: false
+      font_size: 12
+      foreground: '#333333'
+      spacing_above: none
+      spacing_below: none
+      text: |
+        Faculty
+    type: Label
+  - layout_properties: {grid_position: 'PHXASG,QWPTGS'}
+    name: label_2_copy_3_copy_copy_2_copy_copy_copy
+    properties:
+      align: center
+      bold: false
+      font_size: 12
+      foreground: '#333333'
+      spacing_above: none
+      spacing_below: none
+      text: |
+        Admin
+    type: Label
+  - layout_properties: {grid_position: 'PHXASG,WAVOMH'}
+    name: label_2_copy_3_copy_copy_2_copy_copy_copy_copy
+    properties:
+      align: center
+      bold: false
+      font_size: 12
+      foreground: '#333333'
+      spacing_above: none
+      spacing_below: none
+      text: |
+        Dependent
+    type: Label
+  - layout_properties: {grid_position: 'PHXASG,GZGJGN'}
+    name: label_2_copy_3_copy_copy_2_copy_copy_copy_copy_copy
+    properties:
+      align: center
+      bold: false
+      font_size: 12
+      foreground: '#333333'
+      spacing_above: none
+      spacing_below: none
+      text: |
+        REMARKS
+    type: Label
+  layout_properties: {grid_position: 'MIXQFJ,DIVKMO'}
+  name: outlined_card_1
+  properties: {background: '#ffffff', col_spacing: none, col_widths: '{"KBRJNF":20,"FWZMUP":5,"YVTDVR":5,"QWPTGS":5,"WAVOMH":5,"GZGJGN":20}', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'KTERWH,OSCWHX'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: I.) CONS. / TREATMENT}
+  type: Label
+- layout_properties: {grid_position: 'TFHYGX,NPTYCQ'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     A. RESPIRATORY DISORDERS'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_1
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'OJLDZM,SFHLYW'}
+  name: outlined_card_1_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'KOCMAM,HYTTCB'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     B. GI DISORDERS'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_2
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'LCSINH,GQNDTH'}
+  name: outlined_card_1_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'PNUUJS,AIJNDP'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     C. MUSC-SKELETAL DISORDERS'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_3
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'MIFZIQ,MXHNCB'}
+  name: outlined_card_1_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'LQYZEW,RAEMGG'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     D. BP MONITORING'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_4
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'NARIBD,MTJYYR'}
+  name: outlined_card_1_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'WILHPJ,RPWRRX'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     E. CARDIOVASCULAR DISORDERS'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_5
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'DKXOED,GJQCFG'}
+  name: outlined_card_1_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'TWWZOC,CLIMJW'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     F. CNS DISORDERS'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_6
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'QXKOOB,LNYDCZ'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'NCXPVG,UCLRZR'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     G. IMMUNE SYSTEM DISORDERS'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_7
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'TVWSTI,UHEGUQ'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'THQSAK,RJVWXA'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     H. DERMA DISORDERS'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_8
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'QJJZZF,WTHDNS'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'AQKEDW,FNWOUM'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     I. SURGERY / TRAUMA'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_9
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'IBQHRR,ACJINU'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'ZRKXSR,OOIYSC'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     J. EENT DISORDERS'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_10
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'XDAKNI,GWOUJR'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'KUSADS,CALPAR'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     K. REPRODUCTIVE DISORDERS'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_11
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'CKMWJY,QBFEDK'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'TIMMNF,SFBURM'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     L. NUTRITIONAL DEFICIENCY'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_12
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'ZTQHTX,OXRHME'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'IVZOOS,HXYTHZ'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     M. ENDOCRINE DISORDERS'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_13
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'MHWNTM,NHLDAH'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'LQYYTQ,LHFRVQ'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     N. URINARY DISORDERS'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_14
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'MLETUI,ECJTWJ'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'EAVTRN,FAQUWD'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: II.) MEDICAL CERTIFICATE}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_15
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'JZQXZY,ACCREK'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'APRHHL,QCDTUQ'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: III.) INJECTIONS}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_16
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'RLJSSR,ASYPNS'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'IOWTSU,HTOYTT'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: IV.) REFERRALS}
+  type: Label
+- layout_properties: {grid_position: 'IFXRTT,RNGHMC'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     A. Ref. to Hospital w/o Nurse'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_17
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'GTERZW,YLQVIP'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'YZIYEV,GBXTWR'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_2
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     B. Ref. to Hospital w/ Nurse'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_18
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'ZJDNQM,XMQRSD'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'HGXCGO,XBNHYY'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_2_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: V.) OTHERS}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_19
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'QJMZHZ,JOJYXC'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'TCXOVP,SMRZMC'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_2_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: VI.) ON-LINE CONSULTATION}
+  type: Label
+- layout_properties: {grid_position: 'ONKQAH,AKSVUU'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_2_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     A. CONSULTATION'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_20
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'UUFNIK,OKMNJK'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'JFUKYL,ABZMXD'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_2_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     B. MEDICAL CLEARANCE'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_21
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'IKWKUM,MLCQLX'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'HDKTUC,ZTGXLA'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_2_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: '     C. OTHERS'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_22
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'BJPDXV,JVIUVT'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'AKUTKB,MKSZTY'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_2_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: VII.) TRIAGE SURVEY}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_23
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'OPXTAQ,VKUUPP'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'LGLNTN,TWVOLB'}
+  name: label_2_copy_3_copy_copy_2_copy_copy_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_2_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: left, bold: true, font_size: 13, foreground: '#333333', spacing_above: none, spacing_below: none, text: VIII.) BULLETIN UPDATES}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'KLHVXU,PIFNOH'}
+    name: repeating_panel_24
+    properties: {item_template: AccomplishmentPDF.ItemTemplate13}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'ALVVAZ,IHNVXD'}
+  name: outlined_card_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {background: '#ffffff', role: outlined-card}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'IBSXBS,VYGMTH'}
+  name: spacer_1_copy_2
+  properties: {height: 25.39996337890625}
+  type: Spacer
+- layout_properties: {grid_position: 'ZNETSM,IQRVLU'}
+  name: label_1_copy
+  properties: {bold: true, font_size: 14, text: ' ', visible: false}
+  type: Label
+- layout_properties: {grid_position: 'ZNETSM,YRJOHW'}
+  name: label_1_copy_2
+  properties: {align: center, bold: true, font_size: 14, foreground: '#333333', text: STUDENTS}
+  type: Label
+- layout_properties: {grid_position: 'ZNETSM,VPNNVJ'}
+  name: label_1_copy_3
+  properties: {align: center, bold: true, font_size: 14, foreground: '#333333', text: FACULTY}
+  type: Label
+- layout_properties: {grid_position: 'ZNETSM,ODRNPO'}
+  name: label_1_copy_4
+  properties: {align: center, bold: true, font_size: 14, foreground: '#333333', text: ADMIN}
+  type: Label
+- layout_properties: {grid_position: 'ZNETSM,FULDUF'}
+  name: label_1_copy_5
+  properties: {align: center, bold: true, font_size: 14, foreground: '#333333', text: DEPENDENTS}
+  type: Label
+- layout_properties: {grid_position: 'JLKCCJ,TLVLEO'}
+  name: label_1
+  properties: {bold: true, font_size: 14, foreground: '#333333', text: 'TOTAL:'}
+  type: Label
+- layout_properties: {grid_position: 'JLKCCJ,UWNFMZ'}
+  name: txtallstudent
+  properties: {align: center, foreground: '#333333', role: outlined}
+  type: TextBox
+- layout_properties: {grid_position: 'JLKCCJ,FKWHVJ'}
+  name: txtallfaculty
+  properties: {align: center, foreground: '#333333', role: outlined}
+  type: TextBox
+- layout_properties: {grid_position: 'JLKCCJ,CHZVIT'}
+  name: txtalladmin
+  properties: {align: center, foreground: '#333333', role: outlined}
+  type: TextBox
+- layout_properties: {grid_position: 'JLKCCJ,ITOMOM'}
+  name: txtalldependents
+  properties: {align: center, foreground: '#333333', role: outlined}
+  type: TextBox
+- layout_properties: {grid_position: 'YVKGGH,QBARHU'}
+  name: spacer_1_copy_2_copy
+  properties: {height: 28.399993896484375}
+  type: Spacer
+- layout_properties: {grid_position: 'MVFIVD,EQMGVP'}
+  name: label_1_copy_6
+  properties: {align: right, bold: true, font_size: 14, foreground: '#333333', text: 'Prepared by:'}
+  type: Label
+- layout_properties: {grid_position: 'MVFIVD,NBSALA'}
+  name: label_3_copy
+  properties:
+    foreground: '#333333'
+    spacing_below: small
+    text: |
+      _________________________
+               Public Health Nurse
+  type: Label
+- layout_properties: {grid_position: 'GQAQXT,IXITCI'}
+  name: label_1_copy_copy
+  properties: {align: right, bold: true, font_size: 14, foreground: '#333333', text: 'Noted by:'}
+  type: Label
+- layout_properties: {grid_position: 'GQAQXT,SYCQIY'}
+  name: label_3_copy_copy
+  properties:
+    foreground: '#333333'
+    spacing_below: small
+    text: |
+      _________________________
+                  Medical Officer
+  type: Label
+- layout_properties: {grid_position: ',undefined'}
+  name: spacer_1_copy_2_copy_copy
+  properties: {height: 59}
+  type: Spacer
+- layout_properties: {grid_position: 'LMFLND,TRIJST JBKZSN,VFILOD'}
+  name: label_1_copy_copy_2_copy_copy
+  properties:
+    align: left
+    font_size: 11
+    foreground: '#333333'
+    spacing_below: none
+    text: |-
+      Ground Floor, East Wing, PUP A. Mabini Campus, Anonas Street, Sta. Mesa, Manila 1016
+      Trunk Line: 335-1787 or 335-1777 local 385 (Medical Director’s Office), 312 (Clinic)
+      Website: www.pup.edu.ph | Email: medical@pup.edu.ph
+  type: Label
+- layout_properties: {grid_position: 'LMFLND,TRIJST SXAAJG,VXNXAQ'}
+  name: label_1_copy_copy_2_copy_copy_copy
+  properties: {bold: true, font_size: 15, foreground: '#333333', spacing_above: none, text: THE COUNTRY’S 1st POLYTECHNIC UNIVERSITY}
+  type: Label
+- layout_properties: {grid_position: 'LMFLND,DEXXYE'}
+  name: image_1_copy
+  properties: {height: 114.09088134765625, horizontal_align: center, source: _/theme/isoLogo.jpg}
+  type: Image
+container:
+  properties: {col_widths: '{"LGWCLF":15,"ZDBZJZ":30,"ZTJEBJ":15,"EQMGVP":10,"NBSALA":50,"IXITCI":10,"SYCQIY":50,"TRIJST":40,"DEXXYE":20}'}
+  type: ColumnPanel
+is_package: true

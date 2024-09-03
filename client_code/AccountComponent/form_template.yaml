@@ -1,0 +1,7 @@
+components:
+- layout_properties: {grid_position: 'NYIEXX,MTDSOK'}
+  name: label_1
+  properties: {text: Account}
+  type: Label
+container: {type: ColumnPanel}
+is_package: true

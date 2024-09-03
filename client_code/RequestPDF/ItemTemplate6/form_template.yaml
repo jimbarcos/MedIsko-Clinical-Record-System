@@ -1,0 +1,31 @@
+components:
+- data_bindings:
+  - {code: 'self.item[''suppliesName'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'OKSNLG,FJKGUR'}
+  name: txtSupplies
+  properties: {align: center, background: '#ffffffff', font_size: 14, foreground: '#333333', height: 39, role: outlined}
+  type: TextArea
+- data_bindings:
+  - {code: 'self.item[''suppliesQuantity'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'OKSNLG,ZYYKTH'}
+  name: tbQuantity
+  properties: {align: center, font_size: 14, foreground: '#333333', role: outlined}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''suppliesReceivedDate'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'OKSNLG,GUCQBA'}
+  name: tbReceivedDate
+  properties: {align: center, font_size: 14, foreground: '#333333', role: outlined}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''suppliesRemarks'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'OKSNLG,FWENZL'}
+  name: txtRemarks
+  properties: {align: center, background: '#ffffffff', font_size: 14, foreground: '#333333', height: 40, role: outlined}
+  type: TextArea
+container:
+  data_bindings: []
+  properties: {col_widths: '{"FJKGUR":20,"ZYYKTH":10,"GUCQBA":10,"FWENZL":20}'}
+  type: ColumnPanel
+is_package: true
+item_type: {table_id: 765612}

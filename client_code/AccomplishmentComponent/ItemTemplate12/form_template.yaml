@@ -1,0 +1,97 @@
+components:
+- layout_properties: {full_width_row: true, grid_position: 'GADZMW,XGARRR PLWMFA,CMMYUK'}
+  name: label_1_copy
+  properties: {align: center, bold: true, font_size: 12, text: Medical Services Rendered}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''medicalservices'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'GADZMW,XGARRR KQRWOA,LUPQDB'}
+  name: txtmedicalservices
+  properties: {font_size: 13, role: outlined}
+  type: TextBox
+- layout_properties: {grid_position: 'GADZMW,FQEUDM FXYETO,YQOZSW'}
+  name: label_1_copy_copy
+  properties: {align: center, bold: false, font_size: 12, text: Type}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''type'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'GADZMW,FQEUDM WNFBKQ,XYWZHR'}
+  name: ddtype
+  properties:
+    font_size: 13
+    include_placeholder: true
+    items: [Respiratory Disorder, GI Disorders, Musc-Skeletal Dis., BP Monitoring, Cardiovascular Disorders, CNS Disorders, Immune System Disorders, Derma Disorders, Surgery / Trauma, EENT Disorders, Reproductive Disorders, Nutritional Deficiency, Endocrine Disorders, Urinary Disorders, Medical Certificate, Injections, Ref. To Hospital W/O Nurse, Ref. To Hospital W/ Nurse, Referrals - Others, Consultation, Medical Clearance, On-Line Consultation - Others, Triage Survey, Bulletin Updates]
+  type: DropDown
+- layout_properties: {grid_position: 'GADZMW,IGQLZD YSWPWO,FSTYZT'}
+  name: label_1_copy_copy_copy_copy
+  properties: {align: center, bold: false, font_size: 12, text: Students}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''students'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'GADZMW,IGQLZD CCPEAU,JYNAVY'}
+  name: txtstudents
+  properties: {font_size: 13, role: outlined, type: number}
+  type: TextBox
+- layout_properties: {grid_position: 'GADZMW,WBACQI BZCTDG,NLASIS'}
+  name: label_1_copy_copy_copy_copy_copy
+  properties: {align: center, bold: false, font_size: 12, text: Faculty}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''faculty'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'GADZMW,WBACQI PVYEIY,KTDLNV'}
+  name: txtfaculty
+  properties: {font_size: 13, role: outlined, type: number}
+  type: TextBox
+- layout_properties: {grid_position: 'GADZMW,MNDEVP FQKGPJ,HQQARH'}
+  name: label_1_copy_copy_copy_copy_copy_copy
+  properties: {align: center, bold: false, font_size: 12, text: Admin}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''admin'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'GADZMW,MNDEVP TDPPSP,WIBHNG'}
+  name: txtadmin
+  properties: {font_size: 13, role: outlined, type: number}
+  type: TextBox
+- layout_properties: {grid_position: 'GADZMW,SSRTOB EHJNTT,EPMQLE'}
+  name: label_1_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: center, bold: false, font_size: 12, text: Dependents}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''dependents'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'GADZMW,SSRTOB MYGMJL,ICIRKN'}
+  name: txtdependents
+  properties: {font_size: 13, role: outlined, type: number}
+  type: TextBox
+- layout_properties: {grid_position: 'GADZMW,YPESFU PKHPPJ,MCSNRP'}
+  name: label_1_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: center, bold: false, font_size: 12, text: Remarks}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''remarks'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'GADZMW,YPESFU GPVSEA,KUPKRR'}
+  name: txtremarks
+  properties: {font_size: 13, role: outlined, type: text}
+  type: TextBox
+- layout_properties: {grid_position: 'GADZMW,GSTLMR CSLMBF,RHZAXU'}
+  name: label_1_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: center, bold: false, text: ' '}
+  type: Label
+- event_bindings: {click: btnItemDelete_click}
+  layout_properties: {grid_position: 'GADZMW,GSTLMR AHPEHA,HFPRES'}
+  name: btnItemDelete
+  properties: {bold: true, font_size: 13, foreground: 'theme:Error', icon: 'fa:trash', text: ''}
+  type: Button
+- layout_properties: {grid_position: 'GADZMW,KRZURY IICXAA,BZALXX'}
+  name: label_1_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: center, bold: false, text: ' '}
+  type: Label
+- event_bindings: {click: btnSave_click}
+  layout_properties: {grid_position: 'GADZMW,KRZURY RSMVLR,WTPQXO'}
+  name: btnSave
+  properties: {bold: true, font_size: 13, icon: 'fa:save', role: null, text: ''}
+  type: Button
+container:
+  properties: {col_widths: '{"XGARRR":11,"FQEUDM":9,"IGQLZD":5,"WBACQI":5,"MNDEVP":5,"SSRTOB":5,"YPESFU":10,"GSTLMR":5,"KRZURY":5}'}
+  type: ColumnPanel
+is_package: true
+item_type: {table_id: 787384}

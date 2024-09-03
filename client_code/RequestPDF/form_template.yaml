@@ -1,0 +1,188 @@
+components:
+- layout_properties: {grid_position: 'OMNLEI,BAEWYV'}
+  name: image_1
+  properties: {height: 118.54544067382812, horizontal_align: right, source: _/theme/pupLogo.png}
+  type: Image
+- layout_properties: {grid_position: 'OMNLEI,SLREMC'}
+  name: label_2
+  properties:
+    align: center
+    bold: true
+    font_size: 14
+    foreground: '#333333'
+    text: |-
+      Republic of the Philippines
+      POLYTECHNIC UNIVERSITY OF THE PHILIPPINES
+      MEDICAL SERVICES DEPARTMENT
+      Sta. Mesa, Manila
+  type: Label
+- layout_properties: {grid_position: 'OMNLEI,CBCCOB'}
+  name: label_2_copy
+  properties: {align: center, bold: true, font_size: 14, foreground: '#333333', text: ''}
+  type: Label
+- layout_properties: {grid_position: 'BUZCOU,MJPQCE'}
+  name: spacer_1
+  properties: {height: -6.285736083984375}
+  type: Spacer
+- layout_properties: {grid_position: 'ZIWOXG,GHZZRL'}
+  name: label_2_copy_2
+  properties: {align: center, bold: true, font_size: 23, foreground: '#333333', text: Request for Medicines and Supplies}
+  type: Label
+- layout_properties: {grid_position: 'UBUECB,BGOBCN'}
+  name: label_2_copy_3
+  properties:
+    align: left
+    bold: true
+    font_size: 13
+    foreground: '#333333'
+    spacing_above: none
+    spacing_below: none
+    text: |
+      Date:
+      Clinic:
+      Campus:
+  type: Label
+- data_bindings: []
+  layout_properties: {grid_position: 'UBUECB,KZMCNQ'}
+  name: label_3
+  properties:
+    align: left
+    bold: false
+    font_size: 13
+    foreground: '#333333'
+    spacing_above: none
+    spacing_below: none
+    text: |
+      jj
+      sasas
+      asasa
+    underline: false
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'ODGOGR,LGSXLZ'}
+    name: outlined_1
+    properties: {align: center, bold: true, font_size: 14, foreground: '#333333', role: outlined, text: Medicines}
+    type: TextBox
+  - layout_properties: {grid_position: 'ODGOGR,DYKZYS'}
+    name: outlined_1_copy
+    properties: {align: center, bold: true, font_size: 14, foreground: '#333333', role: outlined, text: Quantity}
+    type: TextBox
+  - layout_properties: {grid_position: 'ODGOGR,JUBLVU'}
+    name: outlined_1_copy_copy
+    properties: {align: center, bold: true, font_size: 14, foreground: '#333333', role: outlined, text: Received}
+    type: TextBox
+  - layout_properties: {grid_position: 'ODGOGR,ISWGEC'}
+    name: outlined_1_copy_copy_copy
+    properties: {align: center, bold: true, font_size: 14, foreground: '#333333', role: outlined, text: Remarks}
+    type: TextBox
+  data_bindings: []
+  layout_properties: {grid_position: 'ZFUMBN,CGEYBQ'}
+  name: outlined_card_1
+  properties: {col_widths: '{"LGSXLZ":20,"DYKZYS":10,"JUBLVU":10,"ISWGEC":20}', role: null}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'PCFIMU,IEPJMB'}
+  name: repeating_panel_1
+  properties: {item_template: RequestPDF.ItemTemplate2}
+  type: RepeatingPanel
+- data_bindings:
+  - {code: 'self.item['''']', property: tooltip, writeback: false}
+  layout_properties: {grid_position: 'XDCJGV,TQAALY', row_background: '#333333'}
+  name: spacer_2
+  properties: {height: -62.600006103515625}
+  type: Spacer
+- components:
+  - layout_properties: {grid_position: 'ODGOGR,LGSXLZ'}
+    name: outlined_1_copy_2
+    properties: {align: center, bold: true, font_size: 14, foreground: '#333333', role: outlined, text: Supplies}
+    type: TextBox
+  - layout_properties: {grid_position: 'ODGOGR,DYKZYS'}
+    name: outlined_1_copy_copy_2
+    properties: {align: center, bold: true, font_size: 14, foreground: '#333333', role: outlined, text: Quantity}
+    type: TextBox
+  - layout_properties: {grid_position: 'ODGOGR,JUBLVU'}
+    name: outlined_1_copy_copy_copy_2
+    properties: {align: center, bold: true, font_size: 14, foreground: '#333333', role: outlined, text: Received}
+    type: TextBox
+  - layout_properties: {grid_position: 'ODGOGR,ISWGEC'}
+    name: outlined_1_copy_copy_copy_copy
+    properties: {align: center, bold: true, font_size: 14, foreground: '#333333', role: outlined, text: Remarks}
+    type: TextBox
+  data_bindings: []
+  layout_properties: {grid_position: 'RGENST,LLONTF'}
+  name: outlined_card_1_copy
+  properties: {col_widths: '{"LGSXLZ":20,"DYKZYS":10,"JUBLVU":10,"ISWGEC":20}', role: null}
+  type: ColumnPanel
+- layout_properties: {grid_position: 'VRNAWX,JQLQER AXSVLJ,ZZGKYL'}
+  name: repeating_panel_2
+  properties: {background: '', item_template: RequestPDF.ItemTemplate6}
+  type: RepeatingPanel
+- layout_properties: {grid_position: 'AQWDXP,OMJPVO'}
+  name: spacer_2_copy
+  properties: {height: 32}
+  type: Spacer
+- layout_properties: {grid_position: 'QTKTRX,BQLAHR EUIJHV,CNFWOO'}
+  name: label_1
+  properties: {align: right, bold: true, font_size: 14, foreground: '#333333', text: 'Prepared by:'}
+  type: Label
+- layout_properties: {grid_position: 'QTKTRX,BQLAHR SRRHVV,PNUCDV'}
+  name: spacer_2_copy_copy_copy
+  properties: {height: 64.39996337890625}
+  type: Spacer
+- layout_properties: {grid_position: 'QTKTRX,BQLAHR ZNTXDH,WGXTQB'}
+  name: label_1_copy
+  properties: {align: right, bold: true, font_size: 14, foreground: '#333333', text: 'Noted by:'}
+  type: Label
+- layout_properties: {grid_position: 'QTKTRX,BQLAHR MGNEVR,CPUTEV'}
+  name: spacer_2_copy_copy_copy_copy
+  properties: {height: 32}
+  type: Spacer
+- layout_properties: {grid_position: 'QTKTRX,NCIYYN'}
+  name: label_3_copy
+  properties:
+    foreground: '#333333'
+    spacing_below: small
+    text: |
+      _________________________
+               Public Health Nurse
+  type: Label
+- layout_properties: {grid_position: 'QTKTRX,NCIYYN KSIHUW,HMQUUA'}
+  name: spacer_2_copy_copy
+  properties: {height: 47.20001220703125}
+  type: Spacer
+- layout_properties: {grid_position: 'QTKTRX,NCIYYN IALUHV,XFUOKG'}
+  name: label_3_copy_copy
+  properties:
+    foreground: '#333333'
+    spacing_below: small
+    text: |
+      _________________________
+                  Medical Officer
+  type: Label
+- layout_properties: {grid_position: 'TBWACZ,SASTVV'}
+  name: spacer_2_copy_copy_copy_2
+  properties: {height: -22}
+  type: Spacer
+- layout_properties: {grid_position: 'BWKBKM,PKDXSN WAYBKC,GESVVU'}
+  name: label_1_copy_copy_2_copy_copy
+  properties:
+    align: left
+    font_size: 11
+    foreground: '#333333'
+    spacing_below: none
+    text: |-
+      Ground Floor, East Wing, PUP A. Mabini Campus, Anonas Street, Sta. Mesa, Manila 1016
+      Trunk Line: 335-1787 or 335-1777 local 385 (Medical Director’s Office), 312 (Clinic)
+      Website: www.pup.edu.ph | Email: medical@pup.edu.ph
+  type: Label
+- layout_properties: {grid_position: 'BWKBKM,PKDXSN UCKDTD,EIIOYH'}
+  name: label_1_copy_copy_2_copy_copy_copy
+  properties: {bold: true, font_size: 15, foreground: '#333333', spacing_above: none, text: THE COUNTRY’S 1st POLYTECHNIC UNIVERSITY}
+  type: Label
+- layout_properties: {grid_position: 'BWKBKM,HSHEBQ'}
+  name: image_1_copy
+  properties: {height: 114.09088134765625, horizontal_align: center, source: _/theme/isoLogo.jpg}
+  type: Image
+container:
+  properties: {col_widths: '{"BAEWYV":20,"SLREMC":40,"CBCCOB":20,"BQLAHR":10,"NCIYYN":50,"BGOBCN":5,"KZMCNQ":55}'}
+  type: ColumnPanel
+is_package: true

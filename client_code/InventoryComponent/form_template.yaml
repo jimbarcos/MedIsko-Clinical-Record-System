@@ -1,0 +1,79 @@
+components:
+- layout_properties: {full_width_row: true, grid_position: 'LTBGTT,XYFVTO'}
+  name: inventoryTitle
+  properties: {align: left, bold: true, font_size: 32, text: Medical Equipments Request Inventory}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'LTPVFC,WEZWAT UBGGIU,LKKVSH'}
+    name: label_1
+    properties: {align: left, bold: true, text: 'Sort by:'}
+    type: Label
+  - event_bindings: {change: drop_down_1_change}
+    layout_properties: {grid_position: 'LTPVFC,WEZWAT NNGDOV,YWCYLN'}
+    name: drop_down_1
+    properties:
+      align: full
+      items: [Ascending Alphabetical, Descending Alphabetical, Quantity, Serviceable, Repair, Condemn, Replacement, Additional, Quantity of Request]
+    type: DropDown
+  - components:
+    - event_bindings: {click: btnInventory_click}
+      layout_properties: {grid_position: 'UPXIFZ,XFSEYD'}
+      name: btnInventory
+      properties: {align: right, background: '#c5fd81', bold: true, icon: 'fa:plus', icon_align: left, role: filled-button, text: add item}
+      type: Button
+    layout_properties: {grid_position: 'LTPVFC,KGUXEI'}
+    name: outlined_card_4
+    properties: {col_widths: '{}', role: null}
+    type: ColumnPanel
+  layout_properties: {full_width_row: true, grid_position: 'FAKGGZ,LCCTGO'}
+  name: outlined_card_3
+  properties: {col_widths: '{"WEZWAT":35,"KGUXEI":25}', role: null}
+  type: ColumnPanel
+- components:
+  - data_bindings:
+    - {code: 'self.item['''']', property: tag, writeback: false}
+    - {code: 'self.item['''']', property: tooltip, writeback: false}
+    layout_properties: {full_width_row: true, grid_position: 'ZWNNKL,PLGDHM'}
+    name: repeating_panel_1
+    properties: {item_template: InventoryComponent.ItemTemplate1}
+    type: RepeatingPanel
+  layout_properties: {full_width_row: true, grid_position: 'YPLIIG,NUMTHR'}
+  name: outlined_card_1
+  properties: {col_widths: '{}', role: outlined-card}
+  type: ColumnPanel
+- components:
+  - layout_properties: {grid_position: 'YAJQMG,DOZCFR'}
+    name: label_3
+    properties: {align: center, bold: false, foreground: 'theme:Error', text: Please make sure to save the items before generating a PDF.}
+    type: Label
+  layout_properties: {grid_position: 'ZKHKOV,SKPVKW'}
+  name: outlined_card_5
+  properties: {col_widths: '{"DOZCFR":40}', role: null}
+  type: ColumnPanel
+- event_bindings: {click: btnGeneratePDF_click}
+  layout_properties: {grid_position: 'ZKHKOV,EBCYEK'}
+  name: btnGeneratePDF
+  properties: {align: full, bold: true, icon: 'fa:file-pdf-o', role: filled-button, text: GENERATE PDF}
+  type: Button
+- layout_properties: {grid_position: 'TVDBQB,FTDCDP'}
+  name: label_2
+  properties: {text: ' ', visible: false}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'ITMQZA,DZFLPA'}
+    name: REC
+    properties: {bold: true, font_size: 20, text: 'RECORDED LOGS:'}
+    type: Label
+  - data_bindings: []
+    layout_properties: {full_width_row: true, grid_position: 'MNZOBT,CKYNOW'}
+    name: repeating_panel_2
+    properties: {item_template: InventoryComponent.ItemTemplate3}
+    type: RepeatingPanel
+  layout_properties: {full_width_row: true, grid_position: 'CYJFAF,TMXYVU'}
+  name: outlined_card_2
+  properties: {role: outlined-card, visible: true}
+  type: ColumnPanel
+container:
+  properties: {col_widths: '{"SKPVKW":35,"EBCYEK":25}'}
+  type: ColumnPanel
+is_package: true

@@ -1,0 +1,75 @@
+components:
+- data_bindings:
+  - {code: 'self.item[''items'']', property: tag, writeback: false}
+  event_bindings: {change: text_area_1_change}
+  layout_properties: {grid_position: 'YRRGHD,PTAWRM JTUEJV,ECXIVP'}
+  name: text_area_1
+  properties: {align: left, auto_expand: true, background: '#ffffff', bold: true, enabled: true, font_size: 12, foreground: '#333333', height: -6.636383056640625, role: outlined, spacing_below: none, visible: true}
+  type: TextArea
+- data_bindings:
+  - {code: 'self.item[''items'']', property: tag, writeback: false}
+  event_bindings: {lost_focus: txtItems_lost_focus, pressed_enter: txtItems_pressed_enter}
+  layout_properties: {full_width_row: true, grid_position: 'YRRGHD,PTAWRM BBLJUT,ELWQTH'}
+  name: txtItems
+  properties: {align: center, background: '#ffffff', bold: true, font_size: 12, foreground: '#333333', role: outlined, visible: false}
+  type: TextBox
+- data_bindings: []
+  event_bindings: {change: dropDownItems_change}
+  layout_properties: {grid_position: 'YRRGHD,PTAWRM LXEKSW,KDMAAL'}
+  name: dropDownItems
+  properties:
+    align: full
+    background: '#ffffff'
+    foreground: '#333333'
+    include_placeholder: true
+    items: [Stethoscope, 'Sphygmomanometer, table, aneroid', 'Sphygmomanometer, pocket, aneroid', Sphygmomanometer with stand, Oto-ophthalmoscope set, Thermal Scanner, Thermoscan (Infrared) with stand, Nebulizer, 'Manual resuscitator, adult', Minor surgical set, Aluminum tray with cover, Aluminum kidney basin, Oval magnifying lamp with stand, Finger pulse oximeter, Oxygen tank with regulator, Oxygen tank (reserved), Oxygen tank carrier, Portable Oxygen tank with regulator, Glucometer, 'Stretcher, folding', Wheelchair, Emergency Trauma Bag, Dressing cart, Hospital bed with mattress, Medicine cabinet, Weighing Scale unit height and bar type, Spine board, ECG machine, Ice cap, Ice pack (coleman), Ice chest, Hot water bag, Towels for ice pack/ice cap, Bedsheets and pillow cases, Blankets/linens, Pillows, Autoclave, Sterilizer, First Aid Kit Bag (PHN), Electric airpot, Computer, Printer, Air Purifier, Ultraviolet Disinfection Light, Shredder, Folding Bed (Military Style with Bag), Industrial Fan (Iwata) Tripod Feet, Standard Exhaust Fan, Others]
+    role: outlined
+    visible: false
+  type: DropDown
+- data_bindings:
+  - {code: 'self.item[''quantity'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,UDYDTS'}
+  name: txtQuantity
+  properties: {align: center, font_size: 12, foreground: '#333333', role: outlined, spacing_below: none, type: number}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''serviceable'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,OMUDIB'}
+  name: txtServiceable
+  properties: {align: center, background: '#ffffff', font_size: 12, foreground: '#333333', role: outlined, spacing_below: none, type: number}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''forRepair'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,DQXBGP'}
+  name: txtForRepair
+  properties: {align: center, background: '#ffffff', font_size: 12, foreground: '#333333', role: outlined, spacing_below: none, type: number}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''forCondemn'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,YPRTRG'}
+  name: txtForCondemn
+  properties: {align: center, background: '#ffffff', font_size: 12, foreground: '#333333', role: outlined, spacing_below: none, type: number}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''needReplacement'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,YUUGYW'}
+  name: txtNeedReplacement
+  properties: {align: center, background: '#ffffff', font_size: 12, foreground: '#333333', role: outlined, spacing_below: none, type: number}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''additional'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,ZCTWNT'}
+  name: txtAdditional
+  properties: {align: center, background: '#ffffff', font_size: 12, foreground: '#333333', role: outlined, spacing_below: none, type: number}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''quantityRequest'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,YPLKOF'}
+  name: txtQuantityRequest
+  properties: {align: center, background: '#ffffff', font_size: 12, foreground: '#333333', role: outlined, spacing_below: none, type: number}
+  type: TextBox
+container:
+  properties: {col_widths: '{"PTAWRM":15,"UDYDTS":5,"OMUDIB":5,"DQXBGP":5,"YPRTRG":5,"YUUGYW":5,"ZCTWNT":5,"YPLKOF":9}', foreground: '#f5f5f5', role: null, visible: true}
+  type: ColumnPanel
+is_package: true
+item_type: {table_id: 758295}

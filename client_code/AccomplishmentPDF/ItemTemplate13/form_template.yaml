@@ -1,0 +1,43 @@
+components:
+- data_bindings:
+  - {code: 'self.item[''medicalservices'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'KQEKPJ,REOPJI'}
+  name: txtmedservices
+  properties: {font_size: 12, foreground: '#000000', role: outlined}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''students'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'KQEKPJ,VGMTCM'}
+  name: txtstudents
+  properties: {align: center, font_size: 10, foreground: '#000000', placeholder: '', role: outlined}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''faculty'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'KQEKPJ,UUDZQJ'}
+  name: txtfaculty
+  properties: {align: center, font_size: 10, foreground: '#000000', role: outlined}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''admin'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'KQEKPJ,NUABLC'}
+  name: txtadmin
+  properties: {align: center, font_size: 10, foreground: '#000000', role: outlined}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''dependents'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'KQEKPJ,ECTAPS'}
+  name: txtdependent
+  properties: {align: center, font_size: 10, foreground: '#000000', role: outlined}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''remarks'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'KQEKPJ,QSYZBU'}
+  name: txtremarks
+  properties: {align: center, font_size: 12, foreground: '#000000', role: outlined}
+  type: TextBox
+container:
+  data_bindings: []
+  properties: {col_widths: '{"REOPJI":20,"VGMTCM":5,"UUDZQJ":5,"NUABLC":5,"ECTAPS":5,"QSYZBU":20}'}
+  type: ColumnPanel
+is_package: true
+item_type: {table_id: 787384}

@@ -1,0 +1,115 @@
+components:
+- layout_properties: {full_width_row: true, grid_position: 'YRRGHD,PTAWRM ALXOTQ,NJNDMN'}
+  name: label_1
+  properties: {align: center, bold: true, font_size: 12, text: General Item Description}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''items'']', property: tag, writeback: false}
+  event_bindings: {lost_focus: txtItems_lost_focus, pressed_enter: txtItems_pressed_enter}
+  layout_properties: {full_width_row: true, grid_position: 'YRRGHD,PTAWRM BBLJUT,ELWQTH'}
+  name: txtItems
+  properties: {align: center, role: outlined, visible: false}
+  type: TextBox
+- data_bindings: []
+  event_bindings: {change: dropDownItems_change}
+  layout_properties: {grid_position: 'YRRGHD,PTAWRM LXEKSW,KDMAAL'}
+  name: dropDownItems
+  properties:
+    align: full
+    include_placeholder: true
+    items: [Stethoscope, 'Sphygmomanometer, table, aneroid', 'Sphygmomanometer, pocket, aneroid', Sphygmomanometer with stand, Oto-ophthalmoscope set, Thermal Scanner, Thermoscan (Infrared) with stand, Nebulizer, 'Manual resuscitator, adult', Minor surgical set, Aluminum tray with cover, Aluminum kidney basin, Oval magnifying lamp with stand, Finger pulse oximeter, Oxygen tank with regulator, Oxygen tank (reserved), Oxygen tank carrier, Portable Oxygen tank with regulator, Glucometer, 'Stretcher, folding', Wheelchair, Emergency Trauma Bag, Dressing cart, Hospital bed with mattress, Medicine cabinet, Weighing Scale unit height and bar type, Spine board, ECG machine, Ice cap, Ice pack (coleman), Ice chest, Hot water bag, Towels for ice pack/ice cap, Bedsheets and pillow cases, Blankets/linens, Pillows, Autoclave, Sterilizer, First Aid Kit Bag (PHN), Electric airpot, Computer, Printer, Air Purifier, Ultraviolet Disinfection Light, Shredder, Folding Bed (Military Style with Bag), Industrial Fan (Iwata) Tripod Feet, Standard Exhaust Fan, Others]
+  type: DropDown
+- layout_properties: {grid_position: 'YRRGHD,UDYDTS SAOLBC,MQGVVJ'}
+  name: label_1_copy
+  properties: {align: center, bold: false, font_size: 12, text: Qty.}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''quantity'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,UDYDTS FZENVL,SOTTSD'}
+  name: txtQuantity
+  properties: {align: center, role: outlined, type: number}
+  type: TextBox
+- layout_properties: {grid_position: 'YRRGHD,OMUDIB QFDYFX,XAHTED'}
+  name: label_1_copy_copy
+  properties: {align: center, bold: false, font_size: 12, text: Serviceable}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''serviceable'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,OMUDIB IKQLJL,ZBJGTV'}
+  name: txtServiceable
+  properties: {align: center, role: outlined, type: number}
+  type: TextBox
+- layout_properties: {grid_position: 'YRRGHD,DQXBGP RZPAIO,JVQHQV'}
+  name: label_1_copy_copy_copy
+  properties: {align: center, bold: false, font_size: 12, text: Repair}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''forRepair'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,DQXBGP AFUMJC,GVMVWU'}
+  name: txtForRepair
+  properties: {align: center, role: outlined, type: number}
+  type: TextBox
+- layout_properties: {grid_position: 'YRRGHD,YPRTRG UGOSLG,UCWDHS'}
+  name: label_1_copy_copy_copy_copy
+  properties: {align: center, bold: false, font_size: 12, text: Condemn}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''forCondemn'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,YPRTRG EMCMOL,TZCPNC'}
+  name: txtForCondemn
+  properties: {align: center, role: outlined, type: number}
+  type: TextBox
+- layout_properties: {grid_position: 'YRRGHD,YUUGYW CKVZJV,AMSKHI'}
+  name: label_1_copy_copy_copy_copy_copy
+  properties: {align: center, bold: false, font_size: 12, text: Replace}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''needReplacement'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,YUUGYW AUUURI,APHZJN'}
+  name: txtNeedReplacement
+  properties: {align: center, role: outlined, type: number}
+  type: TextBox
+- layout_properties: {grid_position: 'YRRGHD,ZCTWNT UYAERN,NVSKJN'}
+  name: label_1_copy_copy_copy_copy_copy_copy_copy
+  properties: {align: center, bold: false, font_size: 12, text: Additional}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''additional'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,ZCTWNT DKZUDF,AEBXBU'}
+  name: txtAdditional
+  properties: {align: center, role: outlined, type: number}
+  type: TextBox
+- layout_properties: {grid_position: 'YRRGHD,YPLKOF VYNDFR,WTNOJO'}
+  name: label_1_copy_copy_copy_copy_copy_copy
+  properties: {align: center, bold: false, font_size: 12, text: Qty. of Request}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''quantityRequest'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'YRRGHD,YPLKOF AFSOMN,MDIQGB'}
+  name: txtQuantityRequest
+  properties: {align: center, role: outlined, type: number}
+  type: TextBox
+- layout_properties: {grid_position: 'YRRGHD,VIWEOZ ECSMHR,ZPXGLU'}
+  name: label_1_copy_copy_copy_copy_copy_copy_copy_2
+  properties: {align: center, bold: true, font_size: 12, text: ' '}
+  type: Label
+- event_bindings: {click: btnItemDelete_click}
+  layout_properties: {grid_position: 'YRRGHD,VIWEOZ RMOGID,HNZBEP'}
+  name: btnItemDelete
+  properties: {bold: true, font_size: 20, foreground: 'theme:Error', icon: 'fa:trash', text: ''}
+  type: Button
+- layout_properties: {grid_position: 'YRRGHD,VROHWX CKBFWT,THZJQE'}
+  name: label_1_copy_copy_copy_copy_copy_copy_copy_2_copy
+  properties: {align: center, bold: true, font_size: 12, text: ' '}
+  type: Label
+- event_bindings: {click: btnSave_click}
+  layout_properties: {grid_position: 'YRRGHD,VROHWX GONPKK,OMQJOA'}
+  name: btnSave
+  properties: {bold: true, font_size: 20, icon: 'fa:save', role: null, text: ''}
+  type: Button
+container:
+  data_bindings: []
+  properties: {col_widths: '{"PTAWRM":15,"UDYDTS":5,"OMUDIB":5,"DQXBGP":5,"YPRTRG":5,"YUUGYW":5,"ZCTWNT":5,"YPLKOF":9,"VIWEOZ":6,"VROHWX":6}', role: null, visible: true, wrap_on: mobile}
+  type: ColumnPanel
+is_package: true
+item_type: {table_id: 758295}

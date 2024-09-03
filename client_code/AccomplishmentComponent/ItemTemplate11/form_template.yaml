@@ -1,0 +1,23 @@
+components:
+- data_bindings:
+  - {code: 'self.item[''filename'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'EMURBL,DWXDDO'}
+  name: label_1
+  properties: {font_size: 18, text: txtfFilename}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''fileVersion'']', property: tag, writeback: false}
+  event_bindings: {click: button_1_click}
+  layout_properties: {grid_position: 'EMURBL,RLMLPF'}
+  name: button_1
+  properties: {align: center, background: '#c5fd81', bold: true, font_size: 16, role: filled-button, text: Download File}
+  type: Button
+- event_bindings: {click: btnDeletePDF_click}
+  layout_properties: {grid_position: 'EMURBL,WKCODO'}
+  name: btnDeletePDF
+  properties: {align: center, font_size: 16, foreground: 'theme:Error', icon: 'fa:trash', role: null, text: ''}
+  type: Button
+container:
+  properties: {col_widths: '{"DWXDDO":35,"RLMLPF":15,"WKCODO":10}'}
+  type: ColumnPanel
+is_package: true

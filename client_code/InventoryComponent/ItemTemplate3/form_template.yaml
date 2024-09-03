@@ -1,0 +1,28 @@
+components:
+- data_bindings:
+  - {code: 'self.item[''filename'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'AJKIXS,XTNNSV'}
+  name: label_1
+  properties: {font_size: 18, text: txtfFilename}
+  type: Label
+- components:
+  - data_bindings:
+    - {code: 'self.item[''fileVersion'']', property: tag, writeback: false}
+    event_bindings: {click: button_1_click}
+    layout_properties: {grid_position: 'JNSXRV,OCNEXL'}
+    name: button_1
+    properties: {align: center, background: '#c5fd81', bold: true, font_size: 16, role: filled-button, text: Download File}
+    type: Button
+  - event_bindings: {click: btnDeletePDF_click}
+    layout_properties: {grid_position: 'JNSXRV,XKXOYG'}
+    name: btnDeletePDF
+    properties: {align: center, font_size: 16, foreground: 'theme:Error', icon: 'fa:trash', role: null, text: ''}
+    type: Button
+  layout_properties: {grid_position: 'AJKIXS,KARZGR'}
+  name: outlined_card_1
+  properties: {col_widths: '{"OCNEXL":40,"XKXOYG":20}', role: null}
+  type: ColumnPanel
+container:
+  properties: {col_widths: '{"XTNNSV":40,"KARZGR":20}'}
+  type: ColumnPanel
+is_package: true

@@ -1,0 +1,62 @@
+components:
+- layout_properties: {grid_position: 'NGAPRO,CPRUOV REGFQM,JGOQJZ'}
+  name: label_1
+  properties: {align: center, bold: true, text: Medicine}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''medicineName'']', property: tag, writeback: false}
+  event_bindings: {pressed_enter: tbMedicine_pressed_enter}
+  layout_properties: {grid_position: 'NGAPRO,CPRUOV YLFFBO,ESHAMM'}
+  name: tbMedicine
+  properties: {align: center, role: outlined}
+  type: TextBox
+- layout_properties: {grid_position: 'NGAPRO,EVJJHV ICVKKP,ATIVYV'}
+  name: label_1_copy
+  properties: {align: center, text: Quantity}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''medicineQuantity'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'NGAPRO,EVJJHV LGVMSA,YNXPXL'}
+  name: tbQuantity
+  properties: {align: center, role: outlined, type: number}
+  type: TextBox
+- layout_properties: {grid_position: 'NGAPRO,HPQSHL JRRALG,ORVCSG'}
+  name: label_1_copy_2
+  properties: {align: center, text: Date Received}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''medicineReceivedDate'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'NGAPRO,HPQSHL YBQPJY,VZNGPW'}
+  name: dpMedicine
+  properties: {}
+  type: DatePicker
+- layout_properties: {grid_position: 'NGAPRO,MGQVAP CWSHOK,STGOJU'}
+  name: label_1_copy_3
+  properties: {align: center, text: Remarks}
+  type: Label
+- data_bindings:
+  - {code: 'self.item[''medicineRemarks'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'NGAPRO,MGQVAP NKGNZA,KKTGYJ'}
+  name: tbRemarks
+  properties: {align: center, role: outlined}
+  type: TextBox
+- layout_properties: {grid_position: 'NGAPRO,MGRXDQ FPPTJB,ABQBBN'}
+  name: label_1_copy_3_copy
+  properties: {align: center, text: ' '}
+  type: Label
+- event_bindings: {click: btnDelete_click}
+  layout_properties: {grid_position: 'NGAPRO,MGRXDQ AUDUBT,FARMWS'}
+  name: btnDelete
+  properties: {align: center, bold: false, font_size: 20, foreground: 'theme:Error', icon: 'fa:trash', text: ''}
+  type: Button
+- event_bindings: {click: btnSave_click}
+  layout_properties: {grid_position: 'NGAPRO,MGRXDQ AUDUBT,UYHEAQ'}
+  name: btnSave
+  properties: {align: center, font_size: 20, icon: 'fa:save', role: null, text: ''}
+  type: Button
+container:
+  data_bindings: []
+  properties: {col_widths: '{"CPRUOV":20,"EVJJHV":5,"HPQSHL":10,"MGQVAP":13,"MGRXDQ":12,"FARMWS":30,"UYHEAQ":30}'}
+  type: ColumnPanel
+is_package: true
+item_type: {table_id: 765611}

@@ -1,0 +1,39 @@
+components:
+- layout_properties: {grid_position: 'BCJPFT,HFEZSB'}
+  name: outlined_1
+  properties: {align: center, font_size: 11, foreground: '#000000', role: outlined}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''medicineMaterial'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'BCJPFT,FFXAUT'}
+  name: outlined_1_copy
+  properties: {align: center, bold: true, font_size: 12, foreground: '#000000', role: outlined}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''quantity'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'BCJPFT,ACUSCV'}
+  name: outlined_1_copy_2
+  properties: {align: center, font_size: 11, foreground: '#000000', role: outlined}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''consumed'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'BCJPFT,KGDOAH'}
+  name: outlined_1_copy_3
+  properties: {align: center, font_size: 11, foreground: '#000000', role: outlined}
+  type: TextBox
+- layout_properties: {grid_position: 'BCJPFT,FIFHVR'}
+  name: outlined_1_copy_4
+  properties: {align: center, font_size: 11, foreground: '#000000', role: outlined}
+  type: TextBox
+- data_bindings:
+  - {code: 'self.item[''expiryDate'']', property: tag, writeback: false}
+  layout_properties: {grid_position: 'BCJPFT,OTSNCQ'}
+  name: outlined_1_copy_5
+  properties: {align: center, font_size: 11, foreground: '#000000', role: outlined}
+  type: TextBox
+container:
+  data_bindings: []
+  properties: {col_widths: '{"HFEZSB":10,"FFXAUT":25,"ACUSCV":5,"KGDOAH":5,"FIFHVR":5,"OTSNCQ":10}', spacing_above: none, spacing_below: none}
+  type: ColumnPanel
+is_package: true
+item_type: {table_id: 785856}
