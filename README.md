@@ -1,3 +1,20 @@
+
+# MedIsko: Clinical Record System
+
+### To run: please go to https://medisko.anvil.app
+
+![mi-1](https://github.com/user-attachments/assets/97b57f89-d82d-42c4-9749-62964ecda868)
+
+![mi-2 jpg](https://github.com/user-attachments/assets/52c5ef58-79d8-4201-9abb-93b87ab76948)
+
+![mi-4 jpg](https://github.com/user-attachments/assets/e0a14013-08fa-42c2-a5be-1ec3d0a674a4)
+
+![mi-5 jpg](https://github.com/user-attachments/assets/b2e271ca-91c8-442b-9900-6bead63b02c1)
+
+![mi-6](https://github.com/user-attachments/assets/451577b8-99e3-440e-9f35-8276a445796a)
+
+
+###
 # About This [Anvil](https://anvil.works/?utm_source=github:app_README) App
 
 ### Build web apps with nothing but Python.
