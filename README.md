@@ -1,7 +1,7 @@
 
 # MedIsko: Clinical Record System
 
-### To run: please go to https://medisko.anvil.app
+### To run: please access it via https://medisko.anvil.app
 
 ![mi-1](https://github.com/user-attachments/assets/97b57f89-d82d-42c4-9749-62964ecda868)
 
