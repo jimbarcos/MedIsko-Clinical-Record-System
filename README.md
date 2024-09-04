@@ -1,5 +1,6 @@
 
 # MedIsko: Clinical Record System
+A PDF Recorder and Generator of Clinical Files intended for effcient management of logging records.
 
 ### To run: please access it via https://medisko.anvil.app
 
